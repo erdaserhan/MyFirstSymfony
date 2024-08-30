@@ -27,6 +27,18 @@ php bin/console make:
 ```
 
 ###Création d'un Controller
+
 ```bash
 php bin/console make:controller
 ```
+
+Le nom dois être en Pascal case
+
+Un fichier est créé dans `src/Controller/FirstController.php`
+
+Pour voir une route depuis la console :
+
+```bash
+php bin/console debug:router
+```
+    
