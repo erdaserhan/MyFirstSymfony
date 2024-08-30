@@ -4,10 +4,13 @@
 #        namespace: App\Controller
 #    type: attribute
 
-
 homepage:
     path: /
     controller: App\Controller\FirstController::index
+
+contact:
+    path: /contact
+    controller: App\Controller\FirstController::rami
 
 my_json:
     path: /json
