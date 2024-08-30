@@ -41,4 +41,12 @@ Pour voir une route depuis la console :
 ```bash
 php bin/console debug:router
 ```
+
+Pour voir le détail d'une route
+
+```bash
+php bin/console debug:router nom_de_la_route
+```
+
+
     
